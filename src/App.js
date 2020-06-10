@@ -2,10 +2,29 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  <div>
-    <h1> Hello World From <b>Mujtaba Hussain</b> </h1>
+  return (
+  <div className="App">
+  <header className="App-header">
+   <img src={logo} className="App-logo" alt="logo"/>
+   <p>
+     Edit <code>src/app.js</code> and save to reload
+     </p>
+    <a
+     className="App-link" 
+     href="https://reactjs.org"
+     target="blank"
+     rel="noopener noreferrer"
+     >
+       learn react
+     </a>
+  </header>
   </div>
-    <h2> Hello World</h2>
-}
+
+  );
+  }
+
+  
+
+
 
 export default App;
