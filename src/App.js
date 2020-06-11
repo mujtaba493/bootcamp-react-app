@@ -1,15 +1,24 @@
 import React from 'react';
 import './App.css';
+import dinner from './dinner.js';
 
 function App() {
   return (
   <div className="App">
-    <h1>Hello World Bootcamp From Mujtaba Hussain</h1>
-    <h2>This is Assignment No 2 </h2>
+
+  {/* <dinner></dinner> */}
+  <dinner dishName="chinken biryani"/>
+
   </div>
 
+
+
   );
-  }
+}
+
+          
+
+
 
   
 
